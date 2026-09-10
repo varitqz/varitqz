@@ -16,10 +16,8 @@ IT Support Specialist → building toward Cloud Security / SOC / Identity & Acce
 
 ## Current signal
 
-- **Location:** Hamburg
-- **Current focus:** Azure, Entra ID, KQL, IAM, Zero Trust, Bicep
-- **Method:** learn → build → investigate → prove
-- **Target direction:** Cloud Security / SOC / Identity & Access
+**Hamburg** · Azure · Entra ID · KQL · IAM · Zero Trust · Bicep  
+`learn → build → investigate → prove`
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/varitqz/varitqz/main/assets/project-pulse.svg" alt="Proof-of-work trajectory" width="100%" />
@@ -27,41 +25,53 @@ IT Support Specialist → building toward Cloud Security / SOC / Identity & Acce
 
 ## Featured projects
 
-### 1) Cloud Security Fundamentals Lab
-Local-first learning platform for **AZ-900 / SC-900 concepts, Identity & Access reviews, Zero Trust investigations, KQL detections and Bicep examples**.
+<a href="https://github.com/varitqz/Cloud-Security-Fundamentals-Lab">
+  <img src="https://raw.githubusercontent.com/varitqz/varitqz/main/assets/cloud-security-lab.svg" alt="Cloud Security Fundamentals Lab" width="100%" />
+</a>
 
-- **Focus:** Azure fundamentals, Entra ID, IAM, KQL, security concepts
-- **Shows:** structured learning, hands-on investigations and documentation
-- **Status:** active build
+<p align="center">
+  <a href="https://github.com/varitqz/Cloud-Security-Fundamentals-Lab"><b>Repository</b></a>
+  ·
+  <a href="https://varitqz.github.io/Cloud-Security-Fundamentals-Lab/"><b>Live Lab</b></a>
+</p>
 
-[Repository](https://github.com/varitqz/Cloud-Security-Fundamentals-Lab) · [Live page](https://varitqz.github.io/Cloud-Security-Fundamentals-Lab/)
+<a href="https://varitqz.github.io/Portfolio-CV/">
+  <img src="https://raw.githubusercontent.com/varitqz/varitqz/main/assets/interactive-portfolio.svg" alt="Interactive Portfolio and CV" width="100%" />
+</a>
 
-### 2) Interactive Portfolio / CV
-Recruiter-ready personal website with **German / English mode, interactive sections, KQL content and GitHub Pages deployment**.
+<p align="center">
+  <a href="https://github.com/varitqz/Portfolio-CV"><b>Repository</b></a>
+  ·
+  <a href="https://varitqz.github.io/Portfolio-CV/"><b>Live Portfolio</b></a>
+</p>
 
-- **Focus:** project presentation and technical personal brand
-- **Shows:** clear progression from IT Support toward Cloud Security
-- **Status:** live
+<a href="https://varitqz.github.io/Portfolio-CV/#projects">
+  <img src="https://raw.githubusercontent.com/varitqz/varitqz/main/assets/investigation-cases.svg" alt="Security investigation cases" width="100%" />
+</a>
 
-[Repository](https://github.com/varitqz/Portfolio-CV) · [Live page](https://varitqz.github.io/Portfolio-CV/)
-
-### 3) Investigation Cases
-Hands-on case work around **failed sign-ins, role assignments and endpoint discovery**.
-
-- **Focus:** SigninLogs, AuditLogs, KQL reasoning and analyst workflow
-- **Shows:** practical investigation thinking instead of only buzzwords
-- **Status:** grows with each completed case
+<p align="center">
+  <a href="https://varitqz.github.io/Portfolio-CV/#projects"><b>Open Investigation Cases</b></a>
+</p>
 
 ## Toolbox
 
-`Azure` · `Entra ID` · `KQL` · `IAM` · `Zero Trust` · `Bicep` · `PowerShell` · `Git` · `VS Code`
+<p>
+  <img src="https://img.shields.io/badge/Azure-0B1220?style=for-the-badge&logo=microsoftazure&logoColor=60A5FA" alt="Azure" />
+  <img src="https://img.shields.io/badge/Entra_ID-0B1220?style=for-the-badge&logo=microsoft&logoColor=A78B4FE" alt="Entra ID" />
+  <img src="https://img.shields.io/badge/KQL-0B1220?style=for-the-badge&logo=microsoftazure&logoColor=5EEAD4" alt="KQL" />
+  <img src="https://img.shields.io/badge/Bicep-0B1220?style=for-the-badge&logo=microsoftazure&logoColor=93C5FD" alt="Bicep" />
+  <img src="https://img.shields.io/badge/PowerShell-0B1220?style=for-the-badge&logo=powershell&logoColor=60A5FA" alt="PowerShell" />
+  <img src="https://img.shields.io/badge/Git-0B1220?style=for-the-badge&logo=git&logoColor=5EEAD4" alt="Git" />
+</p>
 
 ## Learning now
 
-- **AZ-900** preparation
-- **SC-900** preparation
-- KQL investigations using `SigninLogs` and `AuditLogs`
-- Entra ID / IAM role-assignment analysis
-- Azure lab infrastructure and Bicep
+```text
+[ACTIVE] AZ-900 preparation
+[ACTIVE] SC-900 preparation
+[ACTIVE] KQL investigations: SigninLogs / AuditLogs
+[ACTIVE] Entra ID / IAM role-assignment analysis
+[BUILD ] Azure lab infrastructure + Bicep
+```
 
 > AZ-900 and SC-900 are currently **in preparation**, not claimed as earned certifications.
