@@ -1,45 +1,70 @@
-<svg width="1200" height="330" viewBox="0 0 1200 330" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="330" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#06070D"/>
-      <stop offset="0.52" stop-color="#0D0F1A"/>
-      <stop offset="1" stop-color="#090A12"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#05070D"/>
+      <stop offset="0.55" stop-color="#090D17"/>
+      <stop offset="1" stop-color="#0B1324"/>
     </linearGradient>
-    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1040 86) rotate(145) scale(370 250)">
-      <stop stop-color="#A78BFA" stop-opacity="0.42"/>
-      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(300 110) rotate(22) scale(440 180)">
+      <stop stop-color="#8B5CF6" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(830 330) rotate(-90) scale(210 420)">
-      <stop stop-color="#D8B4FE" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#D8B4FE" stop-opacity="0"/>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1040 260) rotate(-20) scale(360 180)">
+      <stop stop-color="#22D3EE" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#A78BFA" stroke-opacity="0.08" stroke-width="1"/>
-    </pattern>
-    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="18"/>
+    <linearGradient id="accent" x1="320" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#67E8F9"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#FFFFFF" stroke-opacity="0.06"/>
+    </pattern>
   </defs>
 
-  <rect width="1200" height="330" rx="28" fill="url(#bg)"/>
-  <rect width="1200" height="330" rx="28" fill="url(#grid)" opacity="0.72"/>
-  <rect width="1200" height="330" rx="28" fill="url(#glowA)"/>
-  <rect width="1200" height="330" rx="28" fill="url(#glowB)"/>
-  <rect x="1" y="1" width="1198" height="328" rx="27" stroke="#D8B4FE" stroke-opacity="0.18" stroke-width="2"/>
+  <rect width="1280" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="360" rx="24" fill="url(#grid)"/>
+  <rect width="1280" height="360" rx="24" stroke="#FFFFFF" stroke-opacity="0.08"/>
+  <rect x="40" y="40" width="1200" height="280" rx="18" fill="#04060B" fill-opacity="0.28" stroke="#FFFFFF" stroke-opacity="0.05"/>
 
-  <circle cx="1050" cy="105" r="74" stroke="#A78BFA" stroke-opacity="0.26" stroke-width="1.5"/>
-  <circle cx="1050" cy="105" r="104" stroke="#D8B4FE" stroke-opacity="0.10" stroke-width="1" stroke-dasharray="10 12"/>
-  <circle cx="1050" cy="105" r="9" fill="#D8B4FE" filter="url(#blur)" opacity="0.9"/>
-  <circle cx="1050" cy="105" r="4" fill="#F5F2FF"/>
+  <ellipse cx="300" cy="110" rx="420" ry="160" fill="url(#glow1)"/>
+  <ellipse cx="1040" cy="260" rx="340" ry="160" fill="url(#glow2)"/>
 
-  <text x="68" y="82" fill="#A78BFA" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" font-weight="700" letter-spacing="3">JANNIK RICHTER</text>
-  <text x="68" y="151" fill="#F5F2FF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="48" font-weight="750">IT Support → Cloud Security</text>
-  <text x="68" y="202" fill="#B8B0CA" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="23">Azure · Entra ID · KQL · IAM · Zero Trust · Bicep</text>
+  <g opacity="0.85">
+    <rect x="72" y="72" width="170" height="34" rx="17" fill="#0F172A" stroke="#334155"/>
+    <circle cx="96" cy="89" r="5" fill="#34D399"/>
+    <text x="110" y="95" fill="#CBD5E1" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="16">Hamburg · Cloud Security Path</text>
+  </g>
 
-  <rect x="68" y="239" width="362" height="48" rx="14" fill="#11131F" fill-opacity="0.78" stroke="#A78BFA" stroke-opacity="0.28"/>
-  <circle cx="92" cy="263" r="5" fill="#A78BFA"/>
-  <text x="110" y="270" fill="#D8B4FE" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">learn → build → prove</text>
+  <text x="72" y="155" fill="#93C5FD" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="20" letter-spacing="4">IT SUPPORT SPECIALIST · CLOUD SECURITY FOCUS</text>
 
-  <path d="M879 248 C944 228 1000 240 1056 272 C1104 299 1145 292 1176 264" stroke="#A78BFA" stroke-opacity="0.22" stroke-width="2" stroke-dasharray="9 11"/>
-  <path d="M905 228 C949 210 1018 206 1080 229" stroke="#D8B4FE" stroke-opacity="0.14" stroke-width="1.5"/>
+  <text x="72" y="215" fill="#F8FAFC" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="60" font-weight="700">JANNIK RICHTER</text>
+
+  <text x="72" y="268" fill="url(#accent)" filter="url(#softGlow)" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="34" font-weight="700">Azure · Entra ID · KQL · IAM · Bicep</text>
+
+  <g>
+    <rect x="72" y="290" width="330" height="28" rx="14" fill="#0B1220" stroke="#8B5CF6" stroke-opacity="0.38"/>
+    <text x="90" y="309" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">&gt; learn → build → prove</text>
+  </g>
+
+  <g opacity="0.95">
+    <rect x="854" y="72" width="350" height="184" rx="18" fill="#08101D" stroke="#93C5FD" stroke-opacity="0.16"/>
+    <text x="886" y="108" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15">CURRENT SIGNAL</text>
+    <line x1="886" y1="124" x2="1170" y2="124" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <text x="886" y="156" fill="#E5E7EB" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="18">Azure / Entra ID</text>
+    <text x="1130" y="156" fill="#5EEAD4" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16">active</text>
+    <line x1="886" y1="170" x2="1170" y2="170" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <text x="886" y="200" fill="#E5E7EB" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="18">KQL Investigations</text>
+    <text x="1102" y="200" fill="#93C5FD" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16">hands-on</text>
+    <line x1="886" y1="214" x2="1170" y2="214" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <text x="886" y="244" fill="#E5E7EB" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="18">AZ-900 / SC-900</text>
+    <text x="1100" y="244" fill="#FDE68A" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16">prep</text>
+  </g>
 </svg>
