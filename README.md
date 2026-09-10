@@ -57,7 +57,7 @@ IT Support Specialist → building toward Cloud Security / SOC / Identity & Acce
 
 <p>
   <img src="https://img.shields.io/badge/Azure-0B1220?style=for-the-badge&logo=microsoftazure&logoColor=60A5FA" alt="Azure" />
-  <img src="https://img.shields.io/badge/Entra_ID-0B1220?style=for-the-badge&logo=microsoft&logoColor=A78B4FE" alt="Entra ID" />
+  <img src="https://img.shields.io/badge/Entra_ID-0B1220?style=for-the-badge&logo=microsoft&logoColor=A78BFA" alt="Entra ID" />
   <img src="https://img.shields.io/badge/KQL-0B1220?style=for-the-badge&logo=microsoftazure&logoColor=5EEAD4" alt="KQL" />
   <img src="https://img.shields.io/badge/Bicep-0B1220?style=for-the-badge&logo=microsoftazure&logoColor=93C5FD" alt="Bicep" />
   <img src="https://img.shields.io/badge/PowerShell-0B1220?style=for-the-badge&logo=powershell&logoColor=60A5FA" alt="PowerShell" />
