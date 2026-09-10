@@ -1,0 +1,38 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360"><stop stop-color="#07111F"/><stop offset="1" stop-color="#082322"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="500" y2="0"><stop stop-color="#5EEAD4"/><stop offset="1" stop-color="#60A5FA"/></linearGradient>
+</defs>
+<rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="358" rx="27" stroke="#27504F"/>
+<path d="M36 2H420" stroke="url(#accent)" stroke-width="3" stroke-dasharray="110 274"><animate attributeName="stroke-dashoffset" from="0" to="-384" dur="4.8s" repeatCount="indefinite"/></path>
+<text x="44" y="46" fill="#5EEAD4" font-family="ui-monospace,monospace" font-size="16" letter-spacing="2">03 / FEATURED BUILD</text>
+<text x="44" y="111" fill="#F1F5F9" font-family="ui-sans-serif,system-ui,Arial" font-size="36" font-weight="700">Investigation Cases</text>
+<text x="44" y="157" fill="#9FB0C8" font-family="ui-sans-serif,system-ui,Arial" font-size="18">SOC / IAM case work around failed sign-ins, role</text>
+<text x="44" y="184" fill="#9FB0C8" font-family="ui-sans-serif,system-ui,Arial" font-size="18">assignments and endpoint discovery.</text>
+<g font-family="ui-monospace,monospace" font-size="14">
+  <rect x="44" y="224" width="99" height="28" rx="14" fill="#092421" stroke="#14B8A6"/><text x="59" y="243" fill="#E0FFFA">SIGNINLOGS</text>
+  <rect x="153" y="224" width="98" height="28" rx="14" fill="#092421" stroke="#14B8A6"/><text x="168" y="243" fill="#E0FFFA">AUDITLOGS</text>
+  <rect x="261" y="224" width="57" height="28" rx="14" fill="#092421" stroke="#14B8A6"/><text x="278" y="243" fill="#E0FFFA">KQL</text>
+  <rect x="328" y="224" width="123" height="28" rx="14" fill="#092421" stroke="#14B8A6"/><text x="342" y="243" fill="#E0FFFA">MITRE ATT&amp;CK</text>
+</g>
+<text x="44" y="326" fill="#5EEAD4" font-family="ui-monospace,monospace" font-size="15" letter-spacing="2">OPEN CASES →</text>
+<g transform="translate(575 48)">
+  <rect width="176" height="262" rx="20" fill="#09121F" stroke="#234259"/>
+  <text x="18" y="30" fill="#60A5FA" font-family="ui-monospace,monospace" font-size="12">01 / KQL · SOC</text>
+  <text x="18" y="76" fill="#F1F5F9" font-family="ui-sans-serif,system-ui,Arial" font-size="20" font-weight="700">Failed Sign-in</text><text x="18" y="100" fill="#F1F5F9" font-family="ui-sans-serif,system-ui,Arial" font-size="20" font-weight="700">Triage</text>
+  <text x="18" y="142" fill="#8FA4BF" font-family="ui-monospace,monospace" font-size="12">SigninLogs</text><text x="18" y="164" fill="#8FA4BF" font-family="ui-monospace,monospace" font-size="12">summarize()</text><text x="18" y="186" fill="#8FA4BF" font-family="ui-monospace,monospace" font-size="12">thresholds</text>
+  <rect x="18" y="220" width="92" height="22" rx="11" fill="#0B1930" stroke="#2563EB"/><text x="31" y="235" fill="#BFD8FF" font-family="ui-monospace,monospace" font-size="11">INVESTIGATE</text>
+  <rect x="194" width="176" height="262" rx="20" fill="#0C1020" stroke="#4C3B72"/>
+  <text x="212" y="30" fill="#A78BFA" font-family="ui-monospace,monospace" font-size="12">02 / ENTRA · IAM</text>
+  <text x="212" y="76" fill="#F1F5F9" font-family="ui-sans-serif,system-ui,Arial" font-size="20" font-weight="700">Role Assignment</text><text x="212" y="100" fill="#F1F5F9" font-family="ui-sans-serif,system-ui,Arial" font-size="20" font-weight="700">Investigation</text>
+  <text x="212" y="142" fill="#8FA4BF" font-family="ui-monospace,monospace" font-size="12">AuditLogs</text><text x="212" y="164" fill="#8FA4BF" font-family="ui-monospace,monospace" font-size="12">RoleManagement</text><text x="212" y="186" fill="#8FA4BF" font-family="ui-monospace,monospace" font-size="12">InitiatedBy</text>
+  <rect x="212" y="220" width="92" height="22" rx="11" fill="#17122E" stroke="#7C3AED"/><text x="225" y="235" fill="#E8DDFF" font-family="ui-monospace,monospace" font-size="11">TRACE ROLE</text>
+  <rect x="388" width="176" height="262" rx="20" fill="#08191A" stroke="#24615E"/>
+  <text x="406" y="30" fill="#5EEAD4" font-family="ui-monospace,monospace" font-size="12">03 / KC7 · MITRE</text>
+  <text x="406" y="76" fill="#F1F5F9" font-family="ui-sans-serif,system-ui,Arial" font-size="20" font-weight="700">Endpoint Discovery</text><text x="406" y="100" fill="#F1F5F9" font-family="ui-sans-serif,system-ui,Arial" font-size="20" font-weight="700">Analysis</text>
+  <text x="406" y="142" fill="#8FA4BF" font-family="ui-monospace,monospace" font-size="12">ProcessEvents</text><text x="406" y="164" fill="#8FA4BF" font-family="ui-monospace,monospace" font-size="12">whoami</text><text x="406" y="186" fill="#8FA4BF" font-family="ui-monospace,monospace" font-size="12">ATT&amp;CK mapping</text>
+  <rect x="406" y="220" width="92" height="22" rx="11" fill="#092421" stroke="#14B8A6"/><text x="420" y="235" fill="#DFFFF9" font-family="ui-monospace,monospace" font-size="11">MAP TACTIC</text>
+  <circle cx="548" cy="18" r="6" fill="#5EEAD4"><animate attributeName="r" values="5;8;5" dur="2.4s" repeatCount="indefinite"/></circle>
+</g>
+</svg>
