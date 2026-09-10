@@ -1,0 +1,38 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360"><stop stop-color="#07111F"/><stop offset="1" stop-color="#0A1730"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="500" y2="0"><stop stop-color="#60A5FA"/><stop offset="1" stop-color="#5EEAD4"/></linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="358" rx="27" stroke="#263A5B"/>
+<path d="M36 2H420" stroke="url(#accent)" stroke-width="3" stroke-dasharray="110 274"><animate attributeName="stroke-dashoffset" from="0" to="-384" dur="5s" repeatCount="indefinite"/></path>
+<text x="44" y="46" fill="#60A5FA" font-family="ui-monospace,monospace" font-size="16" letter-spacing="2">01 / FEATURED BUILD</text>
+<text x="44" y="98" fill="#F1F5F9" font-family="ui-sans-serif,system-ui,Arial" font-size="36" font-weight="700">Cloud Security</text>
+<text x="44" y="139" fill="#F1F5F9" font-family="ui-sans-serif,system-ui,Arial" font-size="36" font-weight="700">Fundamentals Lab</text>
+<text x="44" y="178" fill="#9FB0C8" font-family="ui-sans-serif,system-ui,Arial" font-size="18">AZ-900 / SC-900 concepts turned into hands-on</text>
+<text x="44" y="205" fill="#9FB0C8" font-family="ui-sans-serif,system-ui,Arial" font-size="18">identity, KQL, Zero Trust and Bicep practice.</text>
+<g font-family="ui-monospace,monospace" font-size="14">
+  <rect x="44" y="236" width="78" height="28" rx="14" fill="#0B1930" stroke="#3B82F6"/><text x="60" y="255" fill="#DCE9FF">AZ-900</text>
+  <rect x="132" y="236" width="78" height="28" rx="14" fill="#0B1930" stroke="#3B82F6"/><text x="148" y="255" fill="#DCE9FF">SC-900</text>
+  <rect x="220" y="236" width="95" height="28" rx="14" fill="#0B1930" stroke="#3B82F6"/><text x="236" y="255" fill="#DCE9FF">ENTRA ID</text>
+  <rect x="325" y="236" width="57" height="28" rx="14" fill="#0B1930" stroke="#3B82F6"/><text x="342" y="255" fill="#DCE9FF">KQL</text>
+  <rect x="392" y="236" width="72" height="28" rx="14" fill="#0B1930" stroke="#3B82F6"/><text x="408" y="255" fill="#DCE9FF">BICEP</text>
+</g>
+<text x="44" y="326" fill="#60A5FA" font-family="ui-monospace,monospace" font-size="15" letter-spacing="2">OPEN PROJECT →</text>
+<g transform="translate(575 38)">
+  <rect width="581" height="284" rx="22" fill="#06101C" stroke="#2A4B79"/>
+  <circle cx="24" cy="22" r="5" fill="#334155"/><circle cx="42" cy="22" r="5" fill="#334155"/><circle cx="60" cy="22" r="5" fill="#334155"/>
+  <text x="84" y="27" fill="#7087A6" font-family="ui-monospace,monospace" font-size="13">cloud-security-lab</text>
+  <path d="M0 44H581" stroke="#21344D"/>
+  <text x="26" y="82" fill="#64748B" font-family="ui-monospace,monospace" font-size="15">// learning, but built like a product</text>
+  <text x="26" y="114" fill="#CBD5E1" font-family="ui-monospace,monospace" font-size="15">const lab = {</text>
+  <text x="48" y="143" fill="#CBD5E1" font-family="ui-monospace,monospace" font-size="15">cloud: [<tspan fill="#5EEAD4">"Azure"</tspan>, <tspan fill="#5EEAD4">"Entra ID"</tspan>, <tspan fill="#5EEAD4">"RBAC"</tspan>],</text>
+  <text x="48" y="172" fill="#CBD5E1" font-family="ui-monospace,monospace" font-size="15">security: [<tspan fill="#5EEAD4">"KQL"</tspan>, <tspan fill="#5EEAD4">"Zero Trust"</tspan>],</text>
+  <text x="48" y="201" fill="#CBD5E1" font-family="ui-monospace,monospace" font-size="15">iac: [<tspan fill="#5EEAD4">"Bicep"</tspan>, <tspan fill="#5EEAD4">"Git"</tspan>],</text>
+  <text x="48" y="230" fill="#CBD5E1" font-family="ui-monospace,monospace" font-size="15">mindset: <tspan fill="#5EEAD4">"learn → build → prove"</tspan></text>
+  <text x="26" y="259" fill="#CBD5E1" font-family="ui-monospace,monospace" font-size="15">};</text>
+  <rect x="320" y="218" width="9" height="17" rx="2" fill="#5EEAD4" filter="url(#glow)"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+  <circle cx="548" cy="28" r="6" fill="#60A5FA"><animate attributeName="r" values="5;8;5" dur="2.5s" repeatCount="indefinite"/></circle>
+</g>
+</svg>
