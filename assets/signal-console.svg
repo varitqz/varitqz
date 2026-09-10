@@ -1,9 +1,0 @@
-<svg width="1280" height="220" viewBox="0 0 1280 220" fill="none" xmlns="http://www.w3.org/2000/svg">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1280" y2="220"><stop stop-color="#070A12"/><stop offset="1" stop-color="#0A1020"/></linearGradient><filter id="g"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-<rect width="1280" height="220" rx="22" fill="url(#bg)"/><rect x="1" y="1" width="1278" height="218" rx="21" stroke="#A78BFA" stroke-opacity=".24"/>
-<circle cx="30" cy="28" r="4" fill="#FB7185"/><circle cx="46" cy="28" r="4" fill="#FBBF24"/><circle cx="62" cy="28" r="4" fill="#34D399"/><text x="82" y="33" fill="#64748B" font-family="ui-monospace,Consolas,monospace" font-size="14">profile.signal</text>
-<text x="32" y="76" fill="#67E8F9" font-family="ui-monospace,Consolas,monospace" font-size="17">PS&gt; whoami</text><text x="190" y="76" fill="#F8FAFC" font-family="ui-monospace,Consolas,monospace" font-size="17">Jannik Richter</text>
-<text x="32" y="112" fill="#67E8F9" font-family="ui-monospace,Consolas,monospace" font-size="17">PS&gt; Get-Focus</text><text x="190" y="112" fill="#D8B4FE" font-family="ui-monospace,Consolas,monospace" font-size="17">Azure | Entra ID | KQL | IAM | Zero Trust | Bicep</text>
-<text x="32" y="148" fill="#67E8F9" font-family="ui-monospace,Consolas,monospace" font-size="17">PS&gt; Get-NextMove</text><text x="224" y="148" fill="#FDE68A" font-family="ui-monospace,Consolas,monospace" font-size="17">Support → Cloud Security / SOC / Identity</text>
-<text x="32" y="184" fill="#6EE7B7" font-family="ui-monospace,Consolas,monospace" font-size="16">STATUS :: BUILDING PROOF OF WORK</text><rect x="358" y="171" width="10" height="16" rx="2" fill="#67E8F9" filter="url(#g)"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
-</svg>
