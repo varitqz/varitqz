@@ -1,83 +1,177 @@
 <svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-<title id="title">Jannik Richter — Cloud Security</title>
-<desc id="desc">Animated LinkedIn-style cloud security banner with featured projects.</desc>
-<defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="520"><stop stop-color="#050914"/><stop offset=".5" stop-color="#07111f"/><stop offset="1" stop-color="#0a1830"/></linearGradient>
-  <linearGradient id="name" x1="70" y1="0" x2="650" y2="0"><stop stop-color="#f8fafc"/><stop offset=".52" stop-color="#60a5fa"/><stop offset="1" stop-color="#5eead4"/></linearGradient>
-  <linearGradient id="flow" x1="0" y1="0" x2="520" y2="0"><stop stop-color="#60a5fa"/><stop offset="1" stop-color="#5eead4"/></linearGradient>
-  <radialGradient id="g1"><stop stop-color="#2563eb" stop-opacity=".30"/><stop offset="1" stop-color="#2563eb" stop-opacity="0"/></radialGradient>
-  <radialGradient id="g2"><stop stop-color="#14b8a6" stop-opacity=".20"/><stop offset="1" stop-color="#14b8a6" stop-opacity="0"/></radialGradient>
-  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#fff" stroke-opacity=".04"/></pattern>
-  <filter id="glow" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  <clipPath id="c"><rect width="1600" height="520" rx="26"/></clipPath>
-</defs>
-<g clip-path="url(#c)">
-  <rect width="1600" height="520" fill="url(#bg)"/>
-  <rect width="1600" height="520" fill="url(#grid)"><animateTransform attributeName="transform" type="translate" values="0 0;0 28" dur="18s" repeatCount="indefinite"/></rect>
-  <ellipse cx="180" cy="420" rx="360" ry="240" fill="url(#g1)"><animate attributeName="opacity" values=".65;1;.65" dur="7s" repeatCount="indefinite"/></ellipse>
-  <ellipse cx="1420" cy="450" rx="360" ry="240" fill="url(#g2)"><animate attributeName="opacity" values=".8;.45;.8" dur="8s" repeatCount="indefinite"/></ellipse>
-  <path d="M760 20C980 40 1050 125 1135 245C1228 376 1398 420 1600 430" stroke="#60a5fa" stroke-opacity=".20" stroke-width="1.4"/>
-  <path d="M790 102C1010 70 1185 125 1320 240C1440 342 1520 358 1600 350" stroke="#5eead4" stroke-opacity=".18" stroke-width="1.4"><animate attributeName="stroke-opacity" values=".10;.34;.10" dur="6s" repeatCount="indefinite"/></path>
+  <title id="title">Jannik Richter animated GitHub profile banner</title>
+  <desc id="desc">Animated dark cloud security banner inspired by a polished LinkedIn header, showing Jannik Richter, cloud security focus, Hamburg, and featured projects.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#040812"/>
+      <stop offset="0.45" stop-color="#06101F"/>
+      <stop offset="1" stop-color="#0A1730"/>
+    </linearGradient>
+    <radialGradient id="leftGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(180 400) rotate(-12) scale(280 180)">
+      <stop stop-color="#3B82F6" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="centerGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(460 130) rotate(6) scale(520 240)">
+      <stop stop-color="#2563EB" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#2563EB" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="rightGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1430 470) rotate(-18) scale(360 220)">
+      <stop stop-color="#06B6D4" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="nameGrad" x1="65" y1="0" x2="640" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="0.52" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#5EEAD4"/>
+    </linearGradient>
+    <linearGradient id="pillGrad" x1="0" y1="0" x2="430" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#5EEAD4"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#FFFFFF" stroke-opacity="0.045"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="lineGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip"><rect width="1600" height="520" rx="26"/></clipPath>
+  </defs>
 
-  <rect x="70" y="102" width="420" height="40" rx="20" fill="#081323" stroke="#24476f"/>
-  <circle cx="96" cy="122" r="6" fill="#5eead4" filter="url(#glow)"><animate attributeName="opacity" values=".5;1;.5" dur="2s" repeatCount="indefinite"/></circle>
-  <text x="120" y="130" fill="#cbd5e1" font-family="Arial,Helvetica,sans-serif" font-size="18" letter-spacing="3">HAMBURG  •  IT SUPPORT  →  CLOUD SECURITY</text>
-  <path d="M510 122H700" stroke="#5eead4" stroke-width="2" stroke-opacity=".65" stroke-dasharray="55 135"><animate attributeName="stroke-dashoffset" from="0" to="-190" dur="4s" repeatCount="indefinite"/></path>
+  <g clip-path="url(#clip)">
+    <rect width="1600" height="520" rx="26" fill="url(#bg)"/>
+    <rect width="1600" height="520" fill="url(#grid)">
+      <animateTransform attributeName="transform" type="translate" values="0 0; 0 28" dur="18s" repeatCount="indefinite"/>
+    </rect>
+    <ellipse cx="180" cy="400" rx="280" ry="180" fill="url(#leftGlow)">
+      <animate attributeName="opacity" values="0.75;1;0.78;0.75" dur="7s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="460" cy="130" rx="520" ry="240" fill="url(#centerGlow)"/>
+    <ellipse cx="1430" cy="470" rx="360" ry="220" fill="url(#rightGlow)">
+      <animate attributeName="opacity" values="0.9;0.55;0.9" dur="8s" repeatCount="indefinite"/>
+    </ellipse>
 
-  <text x="70" y="260" fill="url(#name)" font-family="Arial,Helvetica,sans-serif" font-size="98" font-weight="800">Jannik Richter</text>
-  <text x="72" y="326" fill="#cbd5e1" font-family="Arial,Helvetica,sans-serif" font-size="29" letter-spacing="2">Azure  •  Entra ID  •  KQL  •  IAM  •  Zero Trust  •  Bicep</text>
-  <rect x="70" y="364" width="500" height="56" rx="16" fill="#071121" stroke="#376fae"/>
-  <text x="96" y="400" fill="url(#flow)" font-family="Consolas,Menlo,monospace" font-size="24">learn → build → investigate → prove</text>
-  <rect x="490" y="380" width="11" height="21" rx="2" fill="#5eead4"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
-  <path d="M70 457V492" stroke="#60a5fa" stroke-width="4"/>
-  <text x="94" y="472" fill="#7387a8" font-family="Consolas,Menlo,monospace" font-size="17" letter-spacing="3">SECURE TODAY.</text>
-  <text x="94" y="500" fill="#7387a8" font-family="Consolas,Menlo,monospace" font-size="17" letter-spacing="3">ENABLE TOMORROW.</text>
+    <g opacity="0.18">
+      <path d="M0 85H1600" stroke="#FFFFFF" stroke-opacity="0.08"/>
+      <path d="M0 260H1600" stroke="#FFFFFF" stroke-opacity="0.05"/>
+      <path d="M0 430H1600" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    </g>
 
-  <text x="745" y="145" fill="#b9c7de" font-family="Arial,Helvetica,sans-serif" font-size="18" letter-spacing="5">FEATURED PROJECTS</text>
-  <path d="M945 137H1530" stroke="#60a5fa" stroke-opacity=".40"/>
+    <path d="M845 0C960 44 1048 131 1089 245C1126 347 1230 432 1600 468" stroke="#1D4ED8" stroke-opacity="0.32" stroke-width="1.5"/>
+    <path d="M822 18C998 56 1140 157 1188 292C1234 398 1353 483 1600 520" stroke="#60A5FA" stroke-opacity="0.24" stroke-width="1.5"/>
+    <path d="M790 112C960 75 1125 118 1265 225C1386 318 1492 341 1600 336" stroke="#38BDF8" stroke-opacity="0.22" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" values="0.14;0.34;0.14" dur="6s" repeatCount="indefinite"/>
+    </path>
 
-  <g transform="translate(745 172)">
-    <rect width="250" height="230" rx="22" fill="#07111f" stroke="#1f4068"/>
-    <rect x="24" y="25" width="58" height="58" rx="16" fill="#0b1730" stroke="#2563eb"/>
-    <path d="M39 60C39 51 46 46 54 46C60 46 65 50 66 56C72 56 76 60 76 65C76 70 72 74 67 74H47C42 74 39 70 39 66Z" stroke="#60a5fa" stroke-width="2.5"/>
-    <text x="211" y="43" fill="#7185a6" font-family="Consolas,monospace" font-size="15">01</text>
-    <text x="24" y="122" fill="#f1f5f9" font-family="Arial,sans-serif" font-size="25" font-weight="700">Cloud Security</text>
-    <text x="24" y="151" fill="#f1f5f9" font-family="Arial,sans-serif" font-size="25" font-weight="700">Fundamentals Lab</text>
-    <text x="24" y="184" fill="#94a3b8" font-family="Arial,sans-serif" font-size="16">AZ-900 • SC-900 • Identity</text>
-    <text x="24" y="208" fill="#94a3b8" font-family="Arial,sans-serif" font-size="16">Zero Trust • KQL</text>
-    <text x="24" y="222" opacity="0">.</text>
+    <rect x="68" y="106" width="405" height="38" rx="19" fill="#081224" stroke="#274C7A" stroke-opacity="0.75"/>
+    <circle cx="93" cy="125" r="6" fill="#5EEAD4" filter="url(#softGlow)">
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="116" y="132" fill="#CBD5E1" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial" font-size="18" letter-spacing="3">HAMBURG  •  IT SUPPORT  →  CLOUD SECURITY</text>
+
+    <path d="M492 125H735" stroke="#5EEAD4" stroke-opacity="0.72" stroke-width="2" filter="url(#lineGlow)">
+      <animate attributeName="stroke-dasharray" values="0 243;243 0;0 243" dur="6s" repeatCount="indefinite"/>
+    </path>
+
+    <text x="68" y="262" fill="url(#nameGrad)" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial" font-size="98" font-weight="800">Jannik Richter</text>
+    <text x="70" y="332" fill="#CBD5E1" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial" font-size="18" letter-spacing="0.8">Azure  •  Entra ID  •  KQL  •  IAM  •  Zero Trust  •  Bicep</text>
+
+    <rect x="68" y="368" width="490" height="54" rx="16" fill="#071121" stroke="#3B82F6" stroke-opacity="0.55"/>
+    <text x="93" y="403" fill="url(#pillGrad)" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="24">learn  →  build  →  investigate  →  prove</text>
+    <rect x="485" y="383" width="12" height="20" rx="2" fill="#5EEAD4">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+
+    <g opacity="0.76">
+      <path d="M70 455V486" stroke="#60A5FA" stroke-width="4"/>
+      <text x="92" y="470" fill="#7C8EA9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="18" letter-spacing="3">SECURE TODAY.</text>
+      <text x="92" y="497" fill="#7C8EA9" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="18" letter-spacing="3">ENABLE TOMORROW.</text>
+    </g>
+
+    <g transform="translate(740 147)">
+      <text x="0" y="0" fill="#B6C6E5" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial" font-size="18" letter-spacing="5">FEATURED PROJECTS</text>
+      <path d="M194 -8H525" stroke="#60A5FA" stroke-opacity="0.55" stroke-width="2"/>
+    </g>
+
+    <g transform="translate(740 170)">
+      <rect width="265" height="230" rx="22" fill="#07111F" stroke="#1F3F67"/>
+      <rect x="26" y="28" width="66" height="66" rx="18" fill="#0B1730" stroke="#2563EB"/>
+      <path d="M44 66C44 56 52 50 60 50C67 50 72 55 73 60C78 60 82 64 82 69C82 74 78 78 73 78H52C47 78 44 74 44 70V66Z" stroke="#60A5FA" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="220" y="46" fill="#6E83A8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="16">01</text>
+      <text x="26" y="140" fill="#F1F5F9" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial" font-size="28" font-weight="700">Cloud Security</text>
+      <text x="26" y="173" fill="#F1F5F9" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial" font-size="28" font-weight="700">Fundamentals Lab</text>
+      <text x="26" y="212" fill="#94A3B8" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial" font-size="18">AZ-900 • SC-900 • Identity •</text>
+      <text x="26" y="239" fill="#94A3B8" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial" font-size="18">Zero Trust • KQL</text>
+      <text x="26" y="276" fill="#60A5FA" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="16" letter-spacing="2">LEARN &amp; PRACTICE</text>
+      <circle cx="218" cy="268" r="20" stroke="#2563EB" stroke-width="1.8"/>
+      <path d="M210 268H226M220 260L228 268L220 276" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <g transform="translate(1020 170)">
+      <rect width="265" height="230" rx="22" fill="#07111F" stroke="#1F3F67"/>
+      <rect x="26" y="28" width="66" height="66" rx="18" fill="#0F1230" stroke="#6D28D9"/>
+      <path d="M48 54H68L78 64V86H48V54Z" stroke="#A78BFA" stroke-width="2.4" stroke-linejoin="round"/>
+      <path d="M68 54V64H78" stroke="#A78BFA" stroke-width="2.4" stroke-linejoin="round"/>
+      <path d="M54 71H72M54 78H72" stroke="#A78BFA" stroke-width="2.2" stroke-linecap="round"/>
+      <text x="220" y="46" fill="#6E83A8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="16">02</text>
+      <text x="26" y="140" fill="#F1F5F9" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial" font-size="28" font-weight="700">Interactive</text>
+      <text x="26" y="173" fill="#F1F5F9" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial" font-size="28" font-weight="700">Portfolio / CV</text>
+      <text x="26" y="212" fill="#94A3B8" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial" font-size="18">Recruiter-ready personal site •</text>
+      <text x="26" y="239" fill="#94A3B8" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial" font-size="18">GitHub Pages</text>
+      <text x="26" y="276" fill="#A78B4FA" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="16" letter-spacing="2">MY STORY</text>
+      <circle cx="218" cy="268" r="20" stroke="#6D28D9" stroke-width="1.8"/>
+      <path d="M210 268H226M220 260L228 268L220 276" stroke="#A78BFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <g transform="translate(1300 170)">
+      <rect width="265" height="230" rx="22" fill="#07111F" stroke="#1F3F67"/>
+      <rect x="26" y="28" width="66" height="66" rx="18" fill="#091C1B" stroke="#0F766E"/>
+      <circle cx="58" cy="60" r="12" stroke="#5EEAD4" stroke-width="2.5"/>
+      <path d="M67 69L78 80" stroke="#5EEAD4" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="220" y="46" fill="#6E83A8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="16">03</text>
+      <text x="26" y="140" fill="#F1F5F9" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial" font-size="28" font-weight="700">Investigation Cases</text>
+      <text x="26" y="212" fill="#94A3B8" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial" font-size="18">Failed Sign-in • Role Assignments •</text>
+      <text x="26" y="239" fill="#94A3B8" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial" font-size="18">Endpoint Discovery</text>
+      <text x="26" y="276" fill="#5EEAD4" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="16" letter-spacing="2">REAL-WORLD QUERIES</text>
+      <circle cx="218" cy="268" r="20" stroke="#0F766E" stroke-width="1.8"/>
+      <path d="M210 268H226M220 260L228 268L220 276" stroke="#5EEAD4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <g opacity="0.9">
+      <path d="M1170 -44C1319 -33 1454 31 1534 128C1609 220 1603 325 1522 402" stroke="#60A5FA" stroke-opacity="0.30" stroke-width="1.5"/>
+      <path d="M1152 -8C1285 6 1407 64 1482 150C1544 222 1552 304 1518 373" stroke="#1D4ED8" stroke-opacity="0.24" stroke-width="1.5"/>
+      <g transform="translate(1196 0)">
+        <circle cx="170" cy="116" r="185" fill="#07111F" fill-opacity="0.4"/>
+        <circle cx="170" cy="116" r="184" stroke="#113D73" stroke-opacity="0.32"/>
+        <ellipse cx="170" cy="116" rx="185" ry="185" fill="url(#centerGlow)" opacity="0.28"/>
+        <g fill="#B6D8FF" opacity="0.45">
+          <circle cx="97" cy="79" r="2"/><circle cx="105" cy="77" r="2"/><circle cx="114" cy="76" r="2"/><circle cx="124" cy="76" r="2"/><circle cx="133" cy="78" r="2"/><circle cx="142" cy="81" r="2"/>
+          <circle cx="91" cy="89" r="2"/><circle cx="101" cy="88" r="2"/><circle cx="111" cy="88" r="2"/><circle cx="121" cy="89" r="2"/><circle cx="131" cy="90" r="2"/><circle cx="141" cy="93" r="2"/><circle cx="151" cy="97" r="2"/>
+          <circle cx="96" cy="99" r="2"/><circle cx="106" cy="100" r="2"/><circle cx="116" cy="100" r="2"/><circle cx="126" cy="100" r="2"/><circle cx="136" cy="102" r="2"/><circle cx="146" cy="106" r="2"/><circle cx="156" cy="110" r="2"/>
+          <circle cx="104" cy="110" r="2"/><circle cx="114" cy="111" r="2"/><circle cx="124" cy="111" r="2"/><circle cx="134" cy="113" r="2"/><circle cx="144" cy="116" r="2"/><circle cx="154" cy="120" r="2"/>
+          <circle cx="109" cy="121" r="2"/><circle cx="119" cy="121" r="2"/><circle cx="129" cy="123" r="2"/><circle cx="139" cy="126" r="2"/><circle cx="149" cy="131" r="2"/>
+          <circle cx="133" cy="136" r="2"/><circle cx="142" cy="140" r="2"/><circle cx="151" cy="144" r="2"/><circle cx="160" cy="148" r="2"/>
+        </g>
+        <circle cx="171" cy="104" r="7" fill="#5EEAD4" filter="url(#softGlow)">
+          <animate attributeName="r" values="5;8;5" dur="2.4s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0.65;1;0.65" dur="2.4s" repeatCount="indefinite"/>
+        </circle>
+        <text x="189" y="110" fill="#D7E8FF" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="16" letter-spacing="2">HAMBURG</text>
+      </g>
+      <text x="1456" y="81" fill="#9DB0CD" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14" letter-spacing="4">CLOUD</text>
+      <text x="1456" y="112" fill="#9DB0CD" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14" letter-spacing="4">IDENTITY</text>
+      <text x="1456" y="143" fill="#9DB0CD" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14" letter-spacing="4">SECURITY</text>
+      <text x="1456" y="174" fill="#9DB0CD" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14" letter-spacing="4">AUTOMATION</text>
+      <text x="1456" y="205" fill="#9DB0CD" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14" letter-spacing="4">REAL IMPACT</text>
+      <path d="M1452 64H1494" stroke="#60A5FA" stroke-width="2"/>
+      <text x="1456" y="453" fill="#9DB0CD" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14" letter-spacing="4">TECHNOLOGY</text>
+      <text x="1456" y="484" fill="#9DB0CD" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14" letter-spacing="4">PEOPLE</text>
+      <text x="1456" y="515" fill="#9DB0CD" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14" letter-spacing="4">SAFER SYSTEMS</text>
+    </g>
   </g>
-
-  <g transform="translate(1012 172)">
-    <rect width="250" height="230" rx="22" fill="#07111f" stroke="#1f4068"/>
-    <rect x="24" y="25" width="58" height="58" rx="16" fill="#10132f" stroke="#6d28d9"/>
-    <path d="M40 42H57L68 53V72H40Z M57 42V53H68" stroke="#a78bfa" stroke-width="2.4" fill="none"/>
-    <path d="M46 59H62M46 65H62" stroke="#a78bfa" stroke-width="2.2"/>
-    <text x="211" y="43" fill="#7185a6" font-family="Consolas,monospace" font-size="15">02</text>
-    <text x="24" y="122" fill="#f1f5f9" font-family="Arial,sans-serif" font-size="25" font-weight="700">Interactive</text>
-    <text x="24" y="151" fill="#f1f5f9" font-family="Arial,sans-serif" font-size="25" font-weight="700">Portfolio / CV</text>
-    <text x="24" y="184" fill="#94a3b8" font-family="Arial,sans-serif" font-size="16">Recruiter-ready personal site</text>
-    <text x="24" y="208" fill="#94a3b8" font-family="Arial,sans-serif" font-size="16">GitHub Pages</text>
-  </g>
-
-  <g transform="translate(1279 172)">
-    <rect width="250" height="230" rx="22" fill="#07111f" stroke="#1f4068"/>
-    <rect x="24" y="25" width="58" height="58" rx="16" fill="#091c1b" stroke="#0f766e"/>
-    <circle cx="50" cy="51" r="11" stroke="#5eead4" stroke-width="2.5"/><path d="M59 60L71 72" stroke="#5eead4" stroke-width="2.5"/>
-    <text x="211" y="43" fill="#7185a6" font-family="Consolas,monospace" font-size="15">03</text>
-    <text x="24" y="122" fill="#f1f5f9" font-family="Arial,sans-serif" font-size="24" font-weight="700">Investigation Cases</text>
-    <text x="24" y="184" fill="#94a3b8" font-family="Arial,sans-serif" font-size="16">Failed Sign-in • Role Assignments</text>
-    <text x="24" y="208" fill="#94a3b8" font-family="Arial,sans-serif" font-size="16">Endpoint Discovery</text>
-  </g>
-
-  <g opacity=".58">
-    <circle cx="1390" cy="86" r="110" stroke="#60a5fa" stroke-opacity=".28"/>
-    <circle cx="1390" cy="86" r="145" stroke="#5eead4" stroke-opacity=".16"/>
-    <circle cx="1390" cy="86" r="5" fill="#5eead4" filter="url(#glow)"><animate attributeName="r" values="4;7;4" dur="2.4s" repeatCount="indefinite"/></circle>
-    <text x="1410" y="92" fill="#c7d7ed" font-family="Consolas,monospace" font-size="14" letter-spacing="2">HAMBURG</text>
-  </g>
-
-  <rect x="0" y="-12" width="1600" height="3" fill="#60a5fa" opacity=".18"><animate attributeName="y" from="-12" to="532" dur="7s" repeatCount="indefinite"/></rect>
-</g>
-<rect x="1" y="1" width="1598" height="518" rx="25" stroke="#fff" stroke-opacity=".07"/>
+  <rect x="1" y="1" width="1598" height="518" rx="25" stroke="#FFFFFF" stroke-opacity="0.08"/>
 </svg>
