@@ -3,9 +3,11 @@
 </p>
 
 <p align="center">
-  <a href="https://varitqz.github.io/Portfolio-CV/"><img src="https://img.shields.io/badge/Portfolio-Live-3B82F6?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://github.com/varitqz/Cloud-Security-Fundamentals-Lab"><img src="https://img.shields.io/badge/Cloud_Security_Lab-Repository-0F766E?style=for-the-badge&logo=github&logoColor=white" alt="Cloud Security Lab" /></a>
-  <a href="https://www.linkedin.com/in/jannik-richter-41b629373/"><img src="https://img.shields.io/badge/LinkedIn-Connect-6D28D9?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://varitqz.github.io/Portfolio-CV/"><b>Portfolio ↗</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/varitqz/Cloud-Security-Fundamentals-Lab"><b>Cloud Security Lab ↗</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/jannik-richter-41b629373/"><b>LinkedIn ↗</b></a>
 </p>
 
 ```bash
@@ -13,11 +15,6 @@ $ whoami
 Jannik Richter
 IT Support Specialist → building toward Cloud Security / SOC / Identity & Access
 ```
-
-## Current signal
-
-**Hamburg** · Azure · Entra ID · KQL · IAM · Zero Trust · Bicep  
-`learn → build → investigate → prove`
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/varitqz/varitqz/main/assets/project-pulse.svg" alt="Proof-of-work trajectory" width="100%" />
