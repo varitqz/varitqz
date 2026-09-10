@@ -1,0 +1,45 @@
+<svg width="1200" height="330" viewBox="0 0 1200 330" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06070D"/>
+      <stop offset="0.52" stop-color="#0D0F1A"/>
+      <stop offset="1" stop-color="#090A12"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1040 86) rotate(145) scale(370 250)">
+      <stop stop-color="#A78BFA" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(830 330) rotate(-90) scale(210 420)">
+      <stop stop-color="#D8B4FE" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#D8B4FE" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#A78BFA" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="330" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="330" rx="28" fill="url(#grid)" opacity="0.72"/>
+  <rect width="1200" height="330" rx="28" fill="url(#glowA)"/>
+  <rect width="1200" height="330" rx="28" fill="url(#glowB)"/>
+  <rect x="1" y="1" width="1198" height="328" rx="27" stroke="#D8B4FE" stroke-opacity="0.18" stroke-width="2"/>
+
+  <circle cx="1050" cy="105" r="74" stroke="#A78BFA" stroke-opacity="0.26" stroke-width="1.5"/>
+  <circle cx="1050" cy="105" r="104" stroke="#D8B4FE" stroke-opacity="0.10" stroke-width="1" stroke-dasharray="10 12"/>
+  <circle cx="1050" cy="105" r="9" fill="#D8B4FE" filter="url(#blur)" opacity="0.9"/>
+  <circle cx="1050" cy="105" r="4" fill="#F5F2FF"/>
+
+  <text x="68" y="82" fill="#A78BFA" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" font-weight="700" letter-spacing="3">JANNIK RICHTER</text>
+  <text x="68" y="151" fill="#F5F2FF" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="48" font-weight="750">IT Support → Cloud Security</text>
+  <text x="68" y="202" fill="#B8B0CA" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="23">Azure · Entra ID · KQL · IAM · Zero Trust · Bicep</text>
+
+  <rect x="68" y="239" width="362" height="48" rx="14" fill="#11131F" fill-opacity="0.78" stroke="#A78BFA" stroke-opacity="0.28"/>
+  <circle cx="92" cy="263" r="5" fill="#A78BFA"/>
+  <text x="110" y="270" fill="#D8B4FE" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">learn → build → prove</text>
+
+  <path d="M879 248 C944 228 1000 240 1056 272 C1104 299 1145 292 1176 264" stroke="#A78BFA" stroke-opacity="0.22" stroke-width="2" stroke-dasharray="9 11"/>
+  <path d="M905 228 C949 210 1018 206 1080 229" stroke="#D8B4FE" stroke-opacity="0.14" stroke-width="1.5"/>
+</svg>
