@@ -1,0 +1,14 @@
+<svg width="1200" height="170" viewBox="0 0 1200 170" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">Proof-of-work trajectory</title>
+<desc id="desc">Animated path from support through identity and detection to cloud security.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1200" y2="170"><stop stop-color="#07111f"/><stop offset="1" stop-color="#0a1730"/></linearGradient><linearGradient id="flow" x1="0" y1="0" x2="1044" y2="0"><stop stop-color="#60a5fa"/><stop offset=".65" stop-color="#a78bfa"/><stop offset="1" stop-color="#5eead4"/></linearGradient></defs>
+<rect width="1200" height="170" rx="22" fill="url(#bg)"/><rect x="1" y="1" width="1198" height="168" rx="21" stroke="#fff" stroke-opacity=".08"/>
+<text x="60" y="35" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="24" font-weight="700">Proof-of-work trajectory</text>
+<text x="60" y="58" fill="#8fa5c5" font-family="Arial,sans-serif" font-size="16">support foundation → identity &amp; access → KQL investigations → cloud security</text>
+<path d="M78 88H1122" stroke="#1e3a5f" stroke-width="2"/><path d="M78 88H1122" stroke="url(#flow)" stroke-width="2.5" stroke-dasharray="170 874"><animate attributeName="stroke-dashoffset" from="0" to="-1044" dur="8s" repeatCount="indefinite"/></path>
+<g font-family="Consolas,monospace" font-size="14" fill="#bbd2f0">
+<circle cx="170" cy="88" r="24" fill="#0d1a30" stroke="#2563eb"/><circle cx="170" cy="88" r="6" fill="#60a5fa"><animate attributeName="r" values="5;8;5" dur="2.2s" repeatCount="indefinite"/></circle><text x="136" y="130">SUPPORT</text>
+<circle cx="430" cy="88" r="24" fill="#0d1a30" stroke="#3b82f6"/><circle cx="430" cy="88" r="6" fill="#93c5fd"><animate attributeName="r" values="5;8;5" dur="2.6s" repeatCount="indefinite"/></circle><text x="393" y="130">IDENTITY</text>
+<circle cx="700" cy="88" r="24" fill="#0d1a30" stroke="#6d28d9"/><circle cx="700" cy="88" r="6" fill="#a78bfa"><animate attributeName="r" values="5;8;5" dur="2.4s" repeatCount="indefinite"/></circle><text x="657" y="130">DETECTION</text>
+<circle cx="980" cy="88" r="24" fill="#0d1a30" stroke="#0f766e"/><circle cx="980" cy="88" r="6" fill="#5eead4"><animate attributeName="r" values="5;8;5" dur="2.8s" repeatCount="indefinite"/></circle><text x="898" y="130">CLOUD SECURITY</text>
+</g></svg>
