@@ -1,153 +1,38 @@
-<svg width="1280" height="480" viewBox="0 0 1280 480" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Jannik Richter animated GitHub profile header</title>
-  <desc id="desc">Animated cloud security themed header with neon HUD, terminal console, scanlines, orbit rings and cyber grid.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="480" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#03040A"/>
-      <stop offset="0.5" stop-color="#060B15"/>
-      <stop offset="1" stop-color="#091227"/>
-    </linearGradient>
-    <radialGradient id="vGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(250 120) rotate(10) scale(420 200)">
-      <stop stop-color="#8B5CF6" stop-opacity="0.58"/>
-      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="cGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1050 280) rotate(-12) scale(380 220)">
-      <stop stop-color="#22D3EE" stop-opacity="0.34"/>
-      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="titleGrad" x1="86" y1="0" x2="780" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#F8FAFC"/>
-      <stop offset="0.48" stop-color="#D8B4FE"/>
-      <stop offset="1" stop-color="#67E8F9"/>
-    </linearGradient>
-    <linearGradient id="accentGrad" x1="0" y1="0" x2="620" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#A78BFA"/>
-      <stop offset="1" stop-color="#67E8F9"/>
-    </linearGradient>
-    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
-      <path d="M34 0H0V34" fill="none" stroke="#fff" stroke-opacity="0.05"/>
-    </pattern>
-    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="8" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="neon" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="b1"/>
-      <feGaussianBlur stdDeviation="12" result="b2"/>
-      <feMerge><feMergeNode in="b2"/><feMergeNode in="b1"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <clipPath id="clip"><rect width="1280" height="480" rx="28"/></clipPath>
-  </defs>
-
-  <g clip-path="url(#clip)">
-    <rect width="1280" height="480" rx="28" fill="url(#bg)"/>
-    <rect width="1280" height="480" fill="url(#grid)" opacity="0.9">
-      <animateTransform attributeName="transform" type="translate" values="0 0; 0 34" dur="16s" repeatCount="indefinite"/>
-    </rect>
-
-    <g opacity="0.26">
-      <path d="M0 96H1280" stroke="#fff" stroke-opacity="0.08"/>
-      <path d="M0 248H1280" stroke="#fff" stroke-opacity="0.06"/>
-      <path d="M0 384H1280" stroke="#fff" stroke-opacity="0.08"/>
-    </g>
-
-    <ellipse cx="250" cy="120" rx="420" ry="200" fill="url(#vGlow)">
-      <animate attributeName="opacity" values="0.8;1;0.82;0.8" dur="7s" repeatCount="indefinite"/>
-    </ellipse>
-    <ellipse cx="1050" cy="280" rx="380" ry="220" fill="url(#cGlow)">
-      <animate attributeName="opacity" values="0.7;0.45;0.7" dur="6s" repeatCount="indefinite"/>
-    </ellipse>
-
-    <g opacity="0.16">
-      <circle cx="1010" cy="236" r="96" stroke="#8B5CF6" stroke-width="1.5"/>
-      <circle cx="1010" cy="236" r="136" stroke="#22D3EE" stroke-width="1.5"/>
-      <circle cx="1010" cy="236" r="182" stroke="#8B5CF6" stroke-opacity="0.6" stroke-width="1.5"/>
-    </g>
-
-    <g>
-      <circle cx="1010" cy="54" r="4" fill="#67E8F9" filter="url(#soft)">
-        <animateTransform attributeName="transform" type="rotate" from="0 1010 236" to="360 1010 236" dur="15s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="1192" cy="236" r="4.4" fill="#A78BFA" filter="url(#soft)">
-        <animateTransform attributeName="transform" type="rotate" from="0 1010 236" to="-360 1010 236" dur="11s" repeatCount="indefinite"/>
-      </circle>
-      <circle cx="1010" cy="372" r="3.6" fill="#D8B4FE" filter="url(#soft)">
-        <animateTransform attributeName="transform" type="rotate" from="0 1010 236" to="360 1010 236" dur="19s" repeatCount="indefinite"/>
-      </circle>
-    </g>
-
-    <g opacity="0.75">
-      <path d="M78 68H230" stroke="#8B5CF6" stroke-opacity="0.45"/>
-      <path d="M78 68V96" stroke="#8B5CF6" stroke-opacity="0.45"/>
-      <path d="M1202 68H1050" stroke="#67E8F9" stroke-opacity="0.34"/>
-      <path d="M1202 68V96" stroke="#67E8F9" stroke-opacity="0.34"/>
-      <path d="M78 410H230" stroke="#67E8F9" stroke-opacity="0.28"/>
-      <path d="M78 410V382" stroke="#67E8F9" stroke-opacity="0.28"/>
-      <path d="M1202 410H1050" stroke="#8B5CF6" stroke-opacity="0.28"/>
-      <path d="M1202 410V382" stroke="#8B5CF6" stroke-opacity="0.28"/>
-    </g>
-
-    <rect x="44" y="44" width="1192" height="392" rx="24" fill="#04060B" fill-opacity="0.16" stroke="#FFFFFF" stroke-opacity="0.08"/>
-
-    <rect x="82" y="74" width="250" height="38" rx="19" fill="#0C1425" stroke="#334155"/>
-    <circle cx="106" cy="93" r="5" fill="#34D399">
-      <animate attributeName="opacity" values="0.6;1;0.6" dur="1.8s" repeatCount="indefinite"/>
-    </circle>
-    <text x="122" y="99" fill="#CBD5E1" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial" font-size="16">Hamburg · Open to next-step roles</text>
-
-    <text x="86" y="162" fill="#93C5FD" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="18" letter-spacing="4">IT SUPPORT SPECIALIST → CLOUD SECURITY</text>
-    <text x="86" y="238" fill="url(#titleGrad)" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial" font-size="68" font-weight="800">JANNIK RICHTER</text>
-    <text x="86" y="290" fill="url(#accentGrad)" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial" font-size="34" font-weight="700" filter="url(#neon)">Azure · Entra ID · KQL · IAM · Bicep</text>
-
-    <g>
-      <rect x="86" y="316" width="468" height="36" rx="18" fill="#09111E" stroke="#8B5CF6" stroke-opacity="0.42"/>
-      <text x="104" y="340" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="16">$ learn → build → investigate → prove</text>
-      <rect x="399" y="323" width="10" height="17" rx="2" fill="#67E8F9">
-        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-      </rect>
-    </g>
-
-    <g opacity="0.78">
-      <rect x="86" y="374" width="112" height="24" rx="12" fill="#0A1220" stroke="#8B5CF6" stroke-opacity="0.26"/>
-      <text x="104" y="390" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">identity-first</text>
-      <rect x="208" y="374" width="112" height="24" rx="12" fill="#0A1220" stroke="#67E8F9" stroke-opacity="0.22"/>
-      <text x="229" y="390" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">kql-labs</text>
-      <rect x="330" y="374" width="132" height="24" rx="12" fill="#0A1220" stroke="#8B5CF6" stroke-opacity="0.22"/>
-      <text x="349" y="390" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="12">zero-trust-path</text>
-    </g>
-
-    <g>
-      <rect x="770" y="72" width="420" height="260" rx="24" fill="#08101B" fill-opacity="0.86" stroke="#93C5FD" stroke-opacity="0.18"/>
-      <g opacity="0.92">
-        <circle cx="796" cy="97" r="4" fill="#FB7185"/>
-        <circle cx="812" cy="97" r="4" fill="#FBBF24"/>
-        <circle cx="828" cy="97" r="4" fill="#34D399"/>
-      </g>
-      <text x="850" y="102" fill="#64748B" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14">focus.live</text>
-      <text x="800" y="142" fill="#6EE7B7" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="15">current = ["Azure", "Entra", "KQL"]</text>
-      <text x="800" y="175" fill="#93C5FD" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="15">goal    = "Cloud Security / SOC"</text>
-      <text x="800" y="208" fill="#D8B4FE" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="15">method  = "learn → build → explain"</text>
-      <text x="800" y="241" fill="#FDE68A" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="15">status  = "hands-on / active"</text>
-      <text x="800" y="274" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="15">stack   = ["IAM", "Zero Trust", "Bicep"]</text>
-      <text x="800" y="307" fill="#94A3B8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14">&gt; support foundation → cloud skills → investigations</text>
-      <rect x="1120" y="294" width="9" height="15" rx="2" fill="#67E8F9">
-        <animate attributeName="opacity" values="1;0;1" dur="1.15s" repeatCount="indefinite"/>
-      </rect>
-    </g>
-
-    <g opacity="0.65">
-      <rect x="770" y="350" width="144" height="34" rx="17" fill="#0A1220" stroke="#8B5CF6" stroke-opacity="0.22"/>
-      <text x="792" y="372" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14">AZ-900 prep</text>
-      <rect x="926" y="350" width="144" height="34" rx="17" fill="#0A1220" stroke="#67E8F9" stroke-opacity="0.22"/>
-      <text x="949" y="372" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14">SC-900 prep</text>
-      <rect x="1082" y="350" width="108" height="34" rx="17" fill="#0A1220" stroke="#8B5CF6" stroke-opacity="0.22"/>
-      <text x="1108" y="372" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14">KQL labs</text>
-    </g>
-
-    <rect x="0" y="0" width="1280" height="480" fill="url(#bg)" opacity="0.06">
-      <animateTransform attributeName="transform" type="translate" values="0 -480; 0 480" dur="8s" repeatCount="indefinite"/>
-    </rect>
-  </g>
-
-  <rect x="1" y="1" width="1278" height="478" rx="27" stroke="#FFFFFF" stroke-opacity="0.08"/>
+<svg width="1280" height="430" viewBox="0 0 1280 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+<title id="t">Jannik Richter — Cloud Security</title><desc id="d">Animated cloud security profile header with portrait, HUD, grid, and terminal elements.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1280" y2="430"><stop stop-color="#03040A"/><stop offset=".52" stop-color="#070B14"/><stop offset="1" stop-color="#091126"/></linearGradient>
+<radialGradient id="vg" cx="0" cy="0" r="1" gradientTransform="translate(290 120) rotate(15) scale(460 220)"><stop stop-color="#8B5CF6" stop-opacity=".48"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+<radialGradient id="cg" cx="0" cy="0" r="1" gradientTransform="translate(1080 280) rotate(-18) scale(400 210)"><stop stop-color="#22D3EE" stop-opacity=".28"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+<linearGradient id="txt" x1="80" y1="0" x2="730" y2="0"><stop stop-color="#F8FAFC"/><stop offset=".55" stop-color="#D8B4FE"/><stop offset="1" stop-color="#67E8F9"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="520" y2="0"><stop stop-color="#A78BFA"/><stop offset="1" stop-color="#67E8F9"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#fff" stroke-opacity=".045"/></pattern>
+<filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="pc"><rect x="925" y="38" width="290" height="350" rx="28"/></clipPath>
+</defs>
+<rect width="1280" height="430" rx="26" fill="url(#bg)"/>
+<rect width="1280" height="430" rx="26" fill="url(#grid)"><animateTransform attributeName="transform" type="translate" values="0 0;0 32" dur="16s" repeatCount="indefinite"/></rect>
+<ellipse cx="290" cy="120" rx="460" ry="220" fill="url(#vg)"><animate attributeName="opacity" values=".7;1;.7" dur="7s" repeatCount="indefinite"/></ellipse>
+<ellipse cx="1080" cy="280" rx="400" ry="210" fill="url(#cg)"><animate attributeName="opacity" values=".75;.45;.75" dur="6s" repeatCount="indefinite"/></ellipse>
+<g fill="none" stroke-linecap="round" opacity=".7">
+<path d="M50 335 C220 300 280 390 460 340 S710 290 900 325" stroke="#8B5CF6" stroke-opacity=".28"/>
+<path d="M80 355 C230 330 320 410 505 355 S760 310 915 350" stroke="#67E8F9" stroke-opacity=".2"/>
+<circle r="4" fill="#67E8F9" filter="url(#glow)"><animateMotion dur="5.5s" repeatCount="indefinite" path="M50 335 C220 300 280 390 460 340 S710 290 900 325"/></circle>
+<circle r="3.5" fill="#A78BFA" filter="url(#glow)"><animateMotion dur="7s" repeatCount="indefinite" path="M80 355 C230 330 320 410 505 355 S760 310 915 350"/></circle>
+</g>
+<rect x="62" y="55" width="252" height="34" rx="17" fill="#0B1220" stroke="#334155"/><circle cx="86" cy="72" r="5" fill="#34D399"><animate attributeName="opacity" values=".35;1;.35" dur="1.6s" repeatCount="indefinite"/></circle><text x="102" y="78" fill="#CBD5E1" font-family="ui-sans-serif,system-ui,Segoe UI,Arial" font-size="15">Hamburg · Cloud Security Path</text>
+<text x="66" y="132" fill="#93C5FD" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17" letter-spacing="3.2">IT SUPPORT SPECIALIST -&gt; CLOUD SECURITY</text>
+<text x="64" y="208" fill="url(#txt)" font-family="ui-sans-serif,system-ui,Segoe UI,Arial" font-size="64" font-weight="800">JANNIK RICHTER</text>
+<text x="66" y="254" fill="url(#accent)" font-family="ui-sans-serif,system-ui,Segoe UI,Arial" font-size="29" font-weight="700" filter="url(#glow)">Azure · Entra ID · KQL · IAM · Bicep</text>
+<rect x="66" y="281" width="480" height="42" rx="14" fill="#07101D" stroke="#8B5CF6" stroke-opacity=".45"/><text x="86" y="308" fill="#E2E8F0" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="16">$ learn -&gt; build -&gt; investigate -&gt; prove</text><rect x="424" y="293" width="9" height="17" rx="2" fill="#67E8F9"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+<g><rect x="596" y="80" width="280" height="210" rx="20" fill="#07101B" fill-opacity=".86" stroke="#67E8F9" stroke-opacity=".16"/><circle cx="620" cy="103" r="4" fill="#FB7185"/><circle cx="636" cy="103" r="4" fill="#FBBF24"/><circle cx="652" cy="103" r="4" fill="#34D399"/><text x="678" y="108" fill="#64748B" font-family="ui-monospace,monospace" font-size="13">focus.live</text><text x="620" y="145" fill="#6EE7B7" font-family="ui-monospace,monospace" font-size="14">current = [Azure, Entra, KQL]</text><text x="620" y="177" fill="#93C5FD" font-family="ui-monospace,monospace" font-size="14">goal = Cloud Security / SOC</text><text x="620" y="209" fill="#D8B4FE" font-family="ui-monospace,monospace" font-size="14">status = hands-on</text><text x="620" y="241" fill="#FDE68A" font-family="ui-monospace,monospace" font-size="14">mode = build + prove</text><text x="620" y="270" fill="#CBD5E1" font-family="ui-monospace,monospace" font-size="12">&gt; identity-first / detection-driven</text></g>
+<rect x="912" y="25" width="316" height="376" rx="32" fill="#050811" stroke="#A78BFA" stroke-opacity=".45"/><rect x="919" y="32" width="302" height="362" rx="28" fill="none" stroke="#67E8F9" stroke-opacity=".22"/>
+<image x="925" y="38" width="290" height="350" preserveAspectRatio="xMidYMid slice" clip-path="url(#pc)" href="data:image/webp;base64,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"/>
+<rect x="925" y="38" width="290" height="350" rx="28" fill="url(#cg)" opacity=".18"/>
+<g fill="none" opacity=".55"><path d="M900 78 C860 120 858 298 900 340" stroke="#8B5CF6"/><path d="M1240 92 C1263 140 1263 286 1238 334" stroke="#67E8F9" stroke-opacity=".7"/></g>
+<circle cx="902" cy="124" r="4" fill="#A78BFA" filter="url(#glow)"><animate attributeName="cy" values="90;340;90" dur="6s" repeatCount="indefinite"/></circle><circle cx="1238" cy="306" r="3.5" fill="#67E8F9" filter="url(#glow)"><animate attributeName="cy" values="330;100;330" dur="7s" repeatCount="indefinite"/></circle>
+<path d="M899 58h34M899 58v34M1236 58h-34M1236 58v34M899 368h34M899 368v-34M1236 368h-34M1236 368v-34" stroke="#D8B4FE" stroke-opacity=".7" stroke-width="2"/>
+<g font-family="ui-monospace,monospace" font-size="12"><rect x="596" y="310" width="96" height="28" rx="14" fill="#0A1220" stroke="#8B5CF6" stroke-opacity=".25"/><text x="616" y="328" fill="#E2E8F0">AZ-900 prep</text><rect x="703" y="310" width="96" height="28" rx="14" fill="#0A1220" stroke="#67E8F9" stroke-opacity=".22"/><text x="723" y="328" fill="#E2E8F0">SC-900 prep</text><rect x="810" y="310" width="70" height="28" rx="14" fill="#0A1220" stroke="#8B5CF6" stroke-opacity=".22"/><text x="827" y="328" fill="#E2E8F0">KQL labs</text></g>
+<rect x="0" y="-40" width="1280" height="46" fill="#67E8F9" opacity=".025"><animate attributeName="y" values="-40;430" dur="5s" repeatCount="indefinite"/></rect>
+<rect x="1" y="1" width="1278" height="428" rx="25" fill="none" stroke="#fff" stroke-opacity=".07"/>
 </svg>
